@@ -12,7 +12,9 @@
 </head>
 <body>
 <h2>Hello World of Spring</h2>
-
+<hr>
 <p>Student Name: ${param.studentName}</p>
+<p>Message: ${msg}</p>
+
 </body>
 </html>
