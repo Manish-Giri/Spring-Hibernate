@@ -21,6 +21,10 @@ public class CreateStudentDemo {
             System.out.println("Saving the student...");
             session.save(newStudent);
 
+            // save more students
+            session.save(new Student("Shane", "Warne", "shane.warne@gmail.com"));
+            session.save(new Student("Ricky", "Ponting", "ricky.ponting@gmail.com"));
+
             // commit
             session.getTransaction().commit();
 
