@@ -7,6 +7,7 @@ import javax.persistence.*;
 public class Student {
 
     @Id
+    // NOTE - generation strategy IDENTITY is mandatory for ID to get updated acc to MYSQL
     @GeneratedValue(strategy=GenerationType.IDENTITY)
     @Column(name = "id")
     private int id;
