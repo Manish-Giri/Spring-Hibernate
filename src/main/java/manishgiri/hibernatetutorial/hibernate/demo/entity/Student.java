@@ -29,6 +29,7 @@ public class Student {
     }
 
     public int getId() {
+        System.out.println("Student getId() called...");
         return id;
     }
 
